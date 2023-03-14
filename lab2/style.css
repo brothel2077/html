@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+
+	background-image: url("angel.jpg");
+	background-size: 100%;
+}
+
+main {
+	text-align: center;
+}
+
+.fio {
+	margin-bottom: 10px;
+}
+
+fieldset {
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	border: none;
+}
+
+legend {
+	display: inline-block;
+}
+
+textarea {
+ 	margin-bottom: 10px;
+ 	resize: none;
+}
+
+.options {
+	margin-bottom: 10px;
+}
+
+.msg {
+	vertical-align: top;
+}
+
+.agreement {
+	margin-bottom: 10px;
+}
+
+.attach {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.login {
+	margin-bottom: 10px;
+}
+
+.remember {
+	margin-top: 10px;
+}
+
+.logbtn {
+	margin-top: 10px;
+}
+
+
+
+
