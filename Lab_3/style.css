@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("images/back.png") ;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-weight: bold;
+}
+
+.header {
+	background-color: white;
+	padding: 1.25rem;
+	border-bottom: 2px solid black;
+}
+
+.main-menu ul {
+	display:  flex;
+	justify-content: flex-start;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu ul li:not(:last-child) {
+	margin-left: 20px;
+}
+
+.main-menu ul li:first-child {
+	margin-left: 0;
+}
+
+.profile {
+	margin-left: auto;
+}
+
+.container {
+	display: flex;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 50%;
+	padding: 1.2rem 0;
+	margin-top: 1rem;
+	background-color: white;
+}
+
+.sidebar-btn {
+	text-align: center;
+}
+
+.page-content {
+	padding-left: 1rem;
+}
+
+.page-content h1 {
+    color: white;
+}
+
+.structure-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.structure-card {
+    background-color: white;
+    display: flex;
+    height: 22rem;
+    width: 31rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.structure-image {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.structure-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.structure-details {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.structure-details header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.structure-details .information {
+    text-align: justify;
+    font-size: 1.125rem;
+    height: 65%;
+    overflow: auto;
+}
+
+.control {
+    text-align: center;
+}
+
+.control .btn {
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.control a {
+    padding: 0.625rem 1.25rem;
+    display: inline-block;
+}
+
+.control .more {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+	background-color: white;
+	color: gray;
+	padding: 1.25rem;
+	margin-top: 1rem;
+	border-top: 2px solid black;
+}
+
+.copyright {
+	margin-right: 1rem;
+}
+
+.help,
+.contacts,
+.login {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+

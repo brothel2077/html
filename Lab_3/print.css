@@ -1,0 +1,22 @@
+.sidebar,
+.header,
+.footer {
+    display: none;
+}
+
+.structure-list {
+    justify-content: center;
+}
+
+.page-content-header {
+    text-align: center;
+}
+
+.control .more {
+    border: 1px solid black;
+    color: black;
+}
+
+.structure-card {
+    margin-bottom: 120px;
+}
